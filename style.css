@@ -1,0 +1,58 @@
+body{
+    color: black;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    gap: 3px 3px;
+}
+.container #result{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.container .input-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.container .input-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.container .input-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.button-style{
+    background-color: aquamarine;
+    padding: 15%;
+    border-radius: 3px;
+}
+.button-style:hover{
+    background-color: rgba(127, 255, 212, 0.363);
+    padding: 15%;
+    border-radius: 3px;
+}
+.button-style:active{
+    background-color: rgb(0, 255, 170);
+    padding: 15%;
+    border-radius: 3px;
+}
+.operator-style{
+    background-color: cornflowerblue;
+    border-radius: 3px;
+}
+.operator-style:hover{
+    background-color: rgb(182, 202, 240);
+    border-radius: 3px;
+}
+.operator-style:active{
+    background-color: rgb(8, 91, 247);
+    border-radius: 3px;
+}
+input[type= "text"]{
+    font-size: large;
+    padding: 5%;
+    
+}
